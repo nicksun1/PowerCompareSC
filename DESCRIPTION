@@ -1,16 +1,14 @@
-Package: PowerCompareSC
-Title: What the Package Does (One Line, Title Case)
+Package: PowerCompareZero
+Title: Introduces new analysis method for Zero-inflated Data (Semi-Continuous) 
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+    person("Nicholas", "Sun", email = "nicksun12345@gmail.com", role = c("aut", "cre"))
+Description: Functions to run new analysis method on simulated and real Zero-inflated data. Includes simulation
+    functions to compare new analysis method's power against exisiting analysis methods to showcase benefits offered
+    by new method in large variety of situations.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+
